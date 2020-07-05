@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Daiki's Portfolio</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../my_portfolio/css/common.css" media ="screen">
+    <link rel="stylesheet" href="../my_portfolio/css/main.css" media ="screen">
+    <link rel="stylesheet" href="../my_portfolio/css/media.css" media ="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="../my_portfolio/js/jquery.typist-master/dist/jquery.typist.js"></script>
+    <script>
+    jQuery(function($) {
+      $('.typist')
+        .typist({speed: 15})
+        .typistPause(3500)
+        .typistAdd('Hello!')
+        .typistPause(1000)
+        .typistRemove(10)
+        .typistPause(500)
+        .typistAdd('Welcome to my portfolio!')
+        .typistPause(1000)
+        .typistRemove(30)
+        .typistPause(1000)
+        .typistAdd('Let\'s make a good creation together! (^‐^)/')
+      });
+    </script>
+  </head>
+  <body>
+
+    <div class="load_title"><h1>Thank you for coming!</h1></div>
+
+    <a href="#home" class="home_btn"></a>
+
+    <header class="header">
+      <div class="header_inner inner">
+        <h1 class="header_title"><i>DAIKI's <br>PORTFOLIO</i></h1>
+        <ul class="list">
+          <li data-yellow="home"><a href="#home">HOME</a></li>
+          <li data-yellow="profile"><a href="#profile">PROFILE</a></li>
+          <li data-yellow="skill"><a href="#skill">SKILL</a></li>
+          <li data-yellow="works"><a href="#works">WORKS</a></li>
+          <li data-yellow="flow"><a href="#flow">FLOW</a></li>
+          <li data-yellow="contact"><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="humburgerIcon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main class="home" id = "home" data-section>
+      <div class="home_title">
+        <h2 class="myname">I'm Daiki Yamamoto</h2>
+        <h2 class="typist"></h2>
+        <h2>Student / Web Engineer</h2>
+      </div>
+    </main>
+
+    <section class="profile section" id = "profile" data-section>
+      <div class="profile_background background">
+        <div class="profile_inner inner">
+          <h2>PROFILE</h2>
+          <div class="profile_flex" data-fadeIn>
+            <div class="profile_left">
+              <img class="my_image" src="../my_portfolio/image/my_face" alt="my_image"/>
+              <h3 class="myname">DAIKI YAMAMOTO</h3>
+            </div>
+            <div class="profile_right">
+              <h3>ABOUT ME</h3>
+              <p>はじめまして、山本　大貴<!--<a href="https://twitter.com/OgaOgaProgram"><i class="fab fa-twitter"></i>OgaOgaProgram</a>)-->と申します。</p>
+              <p>2000年生まれ、広島県出身。</p>
+              <p>現在は滋賀県に在住している現役大学2年生。</p>
+              <p>趣味はゲームをすることや、パソコンをいじること。</p>
+              <p>何も取り柄がない自分に嫌気がさし、プログラミング学習を0から開始。<br>そこでプログラミングの楽しさを知る。</p>
+              <p>まだまだ未熟者ですが、お客様に満足いただけるまで丁寧な対応を心掛けつつお仕事をさせていただきます!</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="skill section" id="skill" data-section>
+      <div class="skill_background background">
+        <div class="skill_inner inner">
+          <h2>SKILL</h2>
+          <ul class="skill_list">
+            <li data-fadeIn>
+              <i class="fab fa-10x fa-html5"></i>
+              <h3>HTML5</h3>
+              <ul class="star">
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>HTMLを用いて、ページに必要な枠組みを丁寧に作り上げます。</p>
+              <p>読みやすいコードが記述できるよう、常に心がけます！</p>
+            </li>
+            <li data-fadeIn>
+              <i class="fab fa-10x fa-css3-alt"></i>
+              <h3>CSS3</h3>
+              <ul class="star">
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>CSSを用いて、丁寧に画像，色を配置します。</p>
+              <p>レスポンシブの対応もお任せください！</p>
+            </li>
+            <li data-fadeIn>
+              <i class="fab fa-10x fa-js-square"></i>
+              <h3>Javascript(jQuery)</h3>
+              <ul class="star">
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>HTML/CSSで作り上げたページにアニメーションを付加させます。</p>
+              <p>アニメーションによって、LP，ホームページをもっと華やかなものにします！</p>
+            </li>
+            <li data-fadeIn>
+              <i class="fab fa-10x fa-php"></i>
+              <h3>PHP</h3>
+              <ul class="star">
+                <li><i class="fas fa-star star_active"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>データベースとページを連携して、会員登録やログインページを設置いたします。</p>
+              <p>サーバーの開設やドメインに関しましては、まだ知識が浅い状態です。</p>
+              <p>申し訳ありません。</p>
+            </li>
+          </ul>
+          <p>私がこれまで得たスキルを全力で発揮します！</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section" id="works" data-section>
+    <div class="work_background background">
+      <div class="works_inner inner">
+        <h2>WORKS</h2>
+        <div class="works_wrap" data-fadeIn>
+          <ul class="works_image">
+            <li><img src="../my_portfolio/image/main_background.jpeg"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="flow section" id="flow" data-section>
+      <div class="flow_background background">
+        <div class="flow_inner inner">
+          <h2>FLOW(Project)</h2>
+          <div data-fadeIn>
+            <div class="flow_item_wrap">
+              <div class="flow_item">
+                <h3><i class="fas fa-hear fa-assistive-listening-systems"></i>1 . ヒアリング</h3>
+                <p>ページ制作の依頼を受領し次第、お客様のメールアドレスを経由しまして、ヒアリングシート(<a href="./form_sample.html" target="_blank">sample</a>)を送信させていただきます。</p>
+                <p>(※ 指示書がございます場合は、ヒアリングシートのご記入は不要です。
+                  <br>また、お手数ですが画像データがございましたら、ヒアリングシートと別に<br class="br_380 br"><a href="mailto:zmzmzmzmzm1357@outlook.com">zmzmzmzmzm1357@<br class="br_380 br">outlook.com</a><br class="br_380 br">のメールアドレスへ添付なさってください。)</p>
+              </div>
+              <i class="fas fa-arrow fa-4x fa-long-arrow-alt-down"></i>
+            </div>
+            <div class="flow_item_wrap">
+              <div class="flow_item">
+                <h3><i class="fas fa-laptop"></i>2 . コーディング</h3>
+                <p>お客様がご記入なさったヒアリングシートを私が受領し次第、こちらでコーディングを開始します。</p>
+                <p>原則1週間以内に、zipファイルにファイルをまとめた形で納品させていただきます。</p>
+                <p>(※ 修正は原則２回まででお願い致します。)</p>
+              </div>
+              <i class="fas fa-arrow fa-4x fa-long-arrow-alt-down"></i>
+            </div>
+            <div class="flow_item_wrap">
+              <div class="flow_item">
+                <h3><i class="fas fa-file-alt"></i>3 . 納品後</h3>
+                <p>納品後、お客様が満足いただければ、ご取引は完了でございます！</p>
+                <p>その後、お客様のメールアドレスを経由しまして、アンケートフォーム(<a href="./questionare_sample.html" target="_blank">sample</a>)を送信します。</p>
+                <p>お答えいただければ、幸いでございます。</p>
+              </div>
+              <i class="fas fa-arrow fa-4x fa-long-arrow-alt-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" data-section>
+      <div class="contact_background background">
+        <div class="contact_inner inner" data-fadeIn>
+          <h2>CONTACT</h2>
+          <div class="contact_way">
+            <!--<a class="twitter" href="#">
+              <i class="fab fa-twitter"></i>
+              <div class="contact_way_detail">
+                <p>おが(@OgaOgaProgram)</p>
+              </div>
+            </a>-->
+            <a class="call" href="tel:07037720123">
+              <i class="fas fa-phone"></i>
+              <div class="contact_way_detail">
+                <p>070-3772-0123</p>
+                <p>※ クリック・タップすると電話をかけられます。</p>
+              </div>
+            </a>
+            <a class="mail" href="mailto:zmzmzmzmzm1357@outlook.com">
+              <i class="fas fa-envelope"></i>
+              <div class="contact_way_detail">
+                <p>zmzmzmzmzm1357@outlook.com</p>
+                <p>※ クリック・タップするとメールを送信できます。</p>
+              </div>
+            </a>
+          </div>
+          <p class="contact_or">or</p>
+          <div class="contact_form" data-fadeIn>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_U0yqKaXNuZq5bTk09UaiOolylmqU3ddN4ipKqLKL7-AgWA/formResponse" method="post">
+              <div class="form_item">
+                <h3><span>* 必須</span>氏名</h3>
+                <input type="text" placeholder="例：山本　大貴" name="entry.2005620554">
+              </div>
+              <div class="form_item">
+                <h3><span>* 必須</span>メールアドレス</h3>
+                <input type="email" placeholder="例：zmzmzmzmzm1357@outlook.com" name="entry.1045781291">
+              </div>
+              <div class="form_item">
+                <h3>主題</h3>
+                <input type="text" placeholder="例：お問い合わせの件" name="entry.2042026640">
+              </div>
+              <div class="form_item">
+                <h3><span>* 必須</span>メッセージ</h3>
+                <textarea rows="5" cols="30" placeholder="例：少しお話を伺いたい。" name="entry.839337160"></textarea>
+              </div>
+                <input type="submit" name="submit" class="btn_info" value="SUBMIT">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_inner inner">
+        <p>©2020/Daiki Yamamoto/All Right Reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../my_portfolio/js/main.js"></script>
+  </body>
+</html>
